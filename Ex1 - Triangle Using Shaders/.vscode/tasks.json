@@ -1,0 +1,27 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++.exe build active file",
+            "command": "D:/Noran/Noran/programs/msys64/mingw64/bin/g++.exe",
+            "args": [
+                "-g",
+                "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Example2-2-Shaders/main.cpp",
+                "-o",
+                "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Example2-2-Shaders/main.exe"
+            ],
+            "options": {
+                "cwd": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Example2-2-Shaders"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "compiler: D:/Noran/Noran/programs/msys64/mingw64/bin/g++.exe"
+        }
+    ],
+    "version": "2.0.0"
+  }
