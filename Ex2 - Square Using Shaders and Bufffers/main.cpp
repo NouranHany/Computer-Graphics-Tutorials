@@ -17,9 +17,9 @@ GLuint loadShader(const std::string& filePath, GLenum shaderType) {
     return shader;
 }
 
-// We've created this struct so that allocate uint to the color channels 
+// We've created this struct so that allocate uint8_t to the color channels 
 // Color channels only need 1 byte (uint8_t), since take values from 0-255
-// No need to allocate float for color channels (4 bytes)
+// No need to allocate float for color channels (since 1 float takes 4 bytes)
 struct Vertex {
     float x, y, z;
     uint8_t r, g, b, a;
@@ -59,8 +59,8 @@ int main(int, char**) {
     glGenVertexArrays(1, &VAO);
     glBindVertexArray(VAO);
 
-    // Position of vertix merged with its color data interleaved
-    // It's important to put the data of a vertix together besides it. 
+    // Each element in this array holds the Position of vertix then its color data
+    // It's important to put the data of a vertix together besides it. (i.e position of the vertix then next to it the color of that vertix) 
     Vertex vertices[] = {
         {-0.5f, -0.5f, 0.0f,   0, 255, 255, 255},
         { 0.5f, -0.5f, 0.0f, 255,   0, 255, 255},
@@ -75,30 +75,31 @@ int main(int, char**) {
     glBindBuffer(GL_ARRAY_BUFFER, VBO);
     
     // This function is to put the data, defined in main.cpp, into the VBO
-    // Note that we've sent the vertices data only one time.
-    // After its placed on the vram, every time the gpu will draw using it.
+    // Note that we'll sent the vertices data from the ram to the v-ram only one time.
+    // After its placed on the v-ram, every time the gpu will draw using it.
     // We specify the buffer's size when we send it data
     
     // First Param, specifies the type of the buffer to put the data in
     // Second Param: State the size of the data in bytes:
-    // 4*(3*4 + 4*1), i.e 4 vertices (each of 3 positions (x,y,z) each is float i.e 4 bytes and each vertix have 4 color channels each is 1 byte).
+    // 4*(3*4 + 4*1), i.e 4 vertices (each of 3 positions (x,y,z) each position is float i.e 4 bytes + each vertix have 4 color channels each is 1 byte).
     // Third param: the data to put in the buffer
     // Fourth Param: means want to use this buffer for drawing and this data is not intended to change (static)
     glBufferData(GL_ARRAY_BUFFER, 4*sizeof(Vertex), vertices, GL_STATIC_DRAW);
 
 
-    // The commented line below, gets the location of the in variable position found in the shader
-    // the location of the variable is obtained from the attribute memory
+    // The commented line below, gets the location of the in variable 'position' found in the shader
+    // the location of this variable is obtained from the attribute memory
     // GLint positionLoc = glGetAttribLocation(program, "position");
     
     GLint positionLoc = 0;
-    // Need to enable the attribute
+    // Need to enable the attribute @ location 0 in the vertix shader.
     glEnableVertexAttribArray(positionLoc);
-    // Specifies how to read the data from the buffer and send it to position attribute (found in the vshader)
-    // First param: the location of the variable to
+    
+    // Specifies how to read the data from the buffer and send it to attribute named 'position' (found in the vshader)
+    // First param: the location of the attribute to send data in buffer to.
     // Second param: How many componenets to be sent each run? 3 (x,y,z)
     // Third param: Type of each component? float
-    // Fourth param: Normalized? if true will map the colors from 0-maxSizeOf unit8_t (0-255)  to 0-1 since shaders uses this color range.
+    // Fourth param: Normalized?
     // Fifth param: Stride? After how many bytes Will find the next component
     // Sixth param: offset? The # of bytes to skip before reading the positions
     glVertexAttribPointer(positionLoc, 3, GL_FLOAT, false, sizeof(Vertex), (void*)0);
@@ -107,16 +108,18 @@ int main(int, char**) {
 
     GLint colorLoc = 1; //glGetAttribLocation(program, "color");
     glEnableVertexAttribArray(colorLoc);
+    
+    // Fourth param: Normalized? if true will map the colors from 0-maxSizeOf unit8_t (0-255) to 0-1 since vertix shaders uses this color range (NDC normalized device coordinates)
     // Sixth param: offset? The # of bytes to skip before reading the colors
-    // offsetof(Vertex, r) specifies the # of bytes before the r varibale in the struct (i.e 12 bytes)
+    // offsetof(Vertex, r) specifies the # of bytes before the r varibale in the struct (i.e 3floats*4bytes=12 bytes)
     glVertexAttribPointer(colorLoc, 4, GL_UNSIGNED_BYTE, true, sizeof(Vertex), (void*)offsetof(Vertex, r));
 
-    // Holds how to form traingles from vertices
+    // The folowing array 'elements', holds how to form traingles from vertices
     // Which vertices it will take from the vertices array to form each face
     
-    // Elements at 0,1,2 indeces in vertices form 1 triangle
-    // Elements at 2,3,0 indeces in vertices form another triangle
-    // This way we need to store 4 vertices instead of 6 to draw 2 traingles as square
+    // Elements at 0,1,2 indeces in 'vertices' array will form 1 triangle
+    // Elements at 2,3,0 indeces in 'vertices' array will form another triangle
+    // This way we need to store 4 vertices instead of 6 to draw 2 traingles as a square
     // We're optimizing in the memory storage of the GPU 
     uint16_t elements[] = {
         0, 1, 2,
@@ -144,7 +147,10 @@ int main(int, char**) {
 
         glUniform1f(timeLoc, (float)glfwGetTime());
 
+        // The line below will draw 2 traingle, each triangle will be draw using 3 of the 6 vertices
+        // However, we didn't use this line, since we only defined data for 4 vertices not 6, in order to optimize in memory
         //glDrawArrays(GL_TRIANGLES, 0, 6);
+        
         // Want to draw 6 elements
         // Third param: Type of data in the elements array
         // Fourth param: To skip some locations in the buffer 

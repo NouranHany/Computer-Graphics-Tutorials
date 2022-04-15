@@ -5,7 +5,7 @@
 #include <GLFW/glfw3.h>
 
 // A function for the 2 shaders instead of writing the code inside twice
-// All objects in opengl are unsigned int, this int represents an ID
+// All objects in opengl are unsigned int, this unsignedint represents an ID
 /*
     filePath: path of the shaderfile location
     returns the shader
@@ -26,7 +26,7 @@ GLuint loadShader(const std::string& filePath, GLenum shaderType) {
     // 2nd param is how many source code strings
     // 3rd param, array of strings
     // 3rd param, since we have only 1, then send a pointer at it.
-    // 4th param, size of the sting >> note that streing has a nullptr at the end so he'll now its len
+    // 4th param, size of the sting >> note that string has a nullptr at the end so he'll know its length
     glShaderSource(shader, 1, &sourceCStr, nullptr);
     glCompileShader(shader);
 
@@ -68,8 +68,8 @@ int main(int, char**) {
     glLinkProgram(program);
 
     // To draw in opengl, need to define a vertex array
-    // In Lab4 will use the VAO to send data into the vertix shader
-    // In this lab, we'll not use the VAO, but need to define it, otherwise opengl won't allow us to draw.
+    // In Ex2 will use the VAO to send data to the vertix shader
+    // In this Exercise, we'll not use the VAO, but need to define it, otherwise opengl won't allow us to draw.
     GLuint VAO; //Vertix array object
     // Firstparam: 1 means creating one vertix array
     glGenVertexArrays(1, &VAO);
@@ -98,7 +98,7 @@ int main(int, char**) {
         // Second param, is to specify how many indeces to skip from the start of the array
         // All indeces before will be skipped
         // Third param: if 3 draw a traingle, if 9 draw 3 traingles, if 5 draw 1 traingle and skip the 2 vertices left.
-        // This takes each 3 consequent vertices and draw a traingle with them.
+        // This takes each 3 successive vertices and draw a traingle using them.
 
         glDrawArrays(GL_TRIANGLES, 0, 3);
 
