@@ -27,4 +27,6 @@ This repo contains the CMP 3060 tutorials. It include tutorials for the Computer
 - In this exercise, Array Buffers are used to send data from main.cpp to the shaders instead of hard-coding them into shaders.
 - Also Elements Buffer is introduced to let you draw a square using 4 vertices instead of 6.
 - Location of attributes are explicitly specified to let pass same data to multiple shaders having attributes in same locations.
-- 
+
+## Rotating Camera
+- View and Projection matrices is introduced
