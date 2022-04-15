@@ -62,10 +62,10 @@ RM = "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Transformations"
+CMAKE_SOURCE_DIR = "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Rotating Camera"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Transformations\build"
+CMAKE_BINARY_DIR = "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Rotating Camera\build"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -130,14 +130,14 @@ vendor/glfw/src/clean: vendor/glfw/src/CMakeFiles/glfw.dir/clean
 CMakeFiles/Example5.dir/all: vendor/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Example5.dir\build.make CMakeFiles/Example5.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Example5.dir\build.make CMakeFiles/Example5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Transformations\build\CMakeFiles" --progress-num=1,2,3 "Built target Example5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Rotating Camera\build\CMakeFiles" --progress-num=1,2,3 "Built target Example5"
 .PHONY : CMakeFiles/Example5.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Example5.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Transformations\build\CMakeFiles" 19
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Rotating Camera\build\CMakeFiles" 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Example5.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Transformations\build\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Rotating Camera\build\CMakeFiles" 0
 .PHONY : CMakeFiles/Example5.dir/rule
 
 # Convenience name for target.
@@ -157,14 +157,14 @@ CMakeFiles/Example5.dir/clean:
 vendor/glfw/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) $(MAKESILENT) -f vendor\glfw\src\CMakeFiles\glfw.dir\build.make vendor/glfw/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) $(MAKESILENT) -f vendor\glfw\src\CMakeFiles\glfw.dir\build.make vendor/glfw/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Transformations\build\CMakeFiles" --progress-num=4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Rotating Camera\build\CMakeFiles" --progress-num=4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19 "Built target glfw"
 .PHONY : vendor/glfw/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
 vendor/glfw/src/CMakeFiles/glfw.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Transformations\build\CMakeFiles" 16
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Rotating Camera\build\CMakeFiles" 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vendor/glfw/src/CMakeFiles/glfw.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Transformations\build\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Rotating Camera\build\CMakeFiles" 0
 .PHONY : vendor/glfw/src/CMakeFiles/glfw.dir/rule
 
 # Convenience name for target.

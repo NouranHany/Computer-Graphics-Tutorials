@@ -4,7 +4,7 @@
 CMakeFiles/Example5.dir/vendor/glad/src/gl.c.obj
  ../vendor/glad/include/KHR/khrplatform.h
  ../vendor/glad/include/glad/gl.h
- D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/vendor/glad/src/gl.c
+ D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/vendor/glad/src/gl.c
 CMakeFiles/Example5.dir/main.cpp.obj
  ../vendor/glad/include/KHR/khrplatform.h
  ../vendor/glad/include/glad/gl.h
@@ -168,4 +168,4 @@ CMakeFiles/Example5.dir/main.cpp.obj
  ../vendor/glm/glm/vec3.hpp
  ../vendor/glm/glm/vec4.hpp
  ../vendor/glm/glm/vector_relational.hpp
- D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/main.cpp
+ D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/main.cpp

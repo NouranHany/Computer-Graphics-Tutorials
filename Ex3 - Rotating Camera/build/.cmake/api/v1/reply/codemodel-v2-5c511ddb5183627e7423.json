@@ -87,14 +87,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Example5::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Example5-Debug-121847863ec64a8bb660.json",
+					"jsonFile" : "target-Example5-Debug-70ba831f960e12e790e3.json",
 					"name" : "Example5",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "glfw::@31bd9730e6b8c71cc656",
-					"jsonFile" : "target-glfw-Debug-ad360be8e04601804104.json",
+					"jsonFile" : "target-glfw-Debug-11804464668456f62b10.json",
 					"name" : "glfw",
 					"projectIndex" : 1
 				}
@@ -104,8 +104,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build",
-		"source" : "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations"
+		"build" : "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build",
+		"source" : "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera"
 	},
 	"version" : 
 	{

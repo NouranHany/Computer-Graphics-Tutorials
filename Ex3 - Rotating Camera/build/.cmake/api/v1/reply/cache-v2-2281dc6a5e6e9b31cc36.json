@@ -67,7 +67,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "d:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build"
+			"value" : "d:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -671,7 +671,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations"
+			"value" : "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -1619,7 +1619,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build"
+			"value" : "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build"
 		},
 		{
 			"name" : "Example5_SOURCE_DIR",
@@ -1631,7 +1631,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations"
+			"value" : "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Threads",
@@ -1655,7 +1655,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/vendor/glfw"
+			"value" : "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/vendor/glfw"
 		},
 		{
 			"name" : "GLFW_BUILD_DOCS",
@@ -1715,7 +1715,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/vendor/glfw"
+			"value" : "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/vendor/glfw"
 		},
 		{
 			"name" : "GLFW_USE_HYBRID_HPG",

@@ -111,15 +111,15 @@
 			[
 				{
 					"backtrace" : 6,
-					"path" : "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/vendor/glfw/include"
+					"path" : "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/vendor/glfw/include"
 				},
 				{
 					"backtrace" : 7,
-					"path" : "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/vendor/glfw/src"
+					"path" : "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/vendor/glfw/src"
 				},
 				{
 					"backtrace" : 7,
-					"path" : "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/vendor/glfw/src"
+					"path" : "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/vendor/glfw/src"
 				}
 			],
 			"language" : "C",

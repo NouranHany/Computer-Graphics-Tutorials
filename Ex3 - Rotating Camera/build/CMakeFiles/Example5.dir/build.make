@@ -61,10 +61,10 @@ RM = "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Transformations"
+CMAKE_SOURCE_DIR = "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Rotating Camera"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Transformations\build"
+CMAKE_BINARY_DIR = "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Rotating Camera\build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Example5.dir/depend.make
@@ -78,30 +78,30 @@ include CMakeFiles/Example5.dir/flags.make
 CMakeFiles/Example5.dir/main.cpp.obj: CMakeFiles/Example5.dir/flags.make
 CMakeFiles/Example5.dir/main.cpp.obj: CMakeFiles/Example5.dir/includes_CXX.rsp
 CMakeFiles/Example5.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Transformations\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Example5.dir/main.cpp.obj"
-	D:\Noran\Noran\Programs\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Example5.dir\main.cpp.obj -c "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Transformations\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Rotating Camera\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Example5.dir/main.cpp.obj"
+	D:\Noran\Noran\Programs\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Example5.dir\main.cpp.obj -c "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Rotating Camera\main.cpp"
 
 CMakeFiles/Example5.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Example5.dir/main.cpp.i"
-	D:\Noran\Noran\Programs\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Transformations\main.cpp" > CMakeFiles\Example5.dir\main.cpp.i
+	D:\Noran\Noran\Programs\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Rotating Camera\main.cpp" > CMakeFiles\Example5.dir\main.cpp.i
 
 CMakeFiles/Example5.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Example5.dir/main.cpp.s"
-	D:\Noran\Noran\Programs\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Transformations\main.cpp" -o CMakeFiles\Example5.dir\main.cpp.s
+	D:\Noran\Noran\Programs\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Rotating Camera\main.cpp" -o CMakeFiles\Example5.dir\main.cpp.s
 
 CMakeFiles/Example5.dir/vendor/glad/src/gl.c.obj: CMakeFiles/Example5.dir/flags.make
 CMakeFiles/Example5.dir/vendor/glad/src/gl.c.obj: CMakeFiles/Example5.dir/includes_C.rsp
 CMakeFiles/Example5.dir/vendor/glad/src/gl.c.obj: ../vendor/glad/src/gl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Transformations\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Example5.dir/vendor/glad/src/gl.c.obj"
-	D:\Noran\Noran\Programs\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Example5.dir\vendor\glad\src\gl.c.obj -c "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Transformations\vendor\glad\src\gl.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Rotating Camera\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Example5.dir/vendor/glad/src/gl.c.obj"
+	D:\Noran\Noran\Programs\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Example5.dir\vendor\glad\src\gl.c.obj -c "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Rotating Camera\vendor\glad\src\gl.c"
 
 CMakeFiles/Example5.dir/vendor/glad/src/gl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Example5.dir/vendor/glad/src/gl.c.i"
-	D:\Noran\Noran\Programs\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Transformations\vendor\glad\src\gl.c" > CMakeFiles\Example5.dir\vendor\glad\src\gl.c.i
+	D:\Noran\Noran\Programs\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Rotating Camera\vendor\glad\src\gl.c" > CMakeFiles\Example5.dir\vendor\glad\src\gl.c.i
 
 CMakeFiles/Example5.dir/vendor/glad/src/gl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Example5.dir/vendor/glad/src/gl.c.s"
-	D:\Noran\Noran\Programs\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Transformations\vendor\glad\src\gl.c" -o CMakeFiles\Example5.dir\vendor\glad\src\gl.c.s
+	D:\Noran\Noran\Programs\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Rotating Camera\vendor\glad\src\gl.c" -o CMakeFiles\Example5.dir\vendor\glad\src\gl.c.s
 
 # Object files for target Example5
 Example5_OBJECTS = \
@@ -118,7 +118,7 @@ Example5_EXTERNAL_OBJECTS =
 ../bin/Example5.exe: CMakeFiles/Example5.dir/linklibs.rsp
 ../bin/Example5.exe: CMakeFiles/Example5.dir/objects1.rsp
 ../bin/Example5.exe: CMakeFiles/Example5.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Transformations\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ..\bin\Example5.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Rotating Camera\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ..\bin\Example5.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Example5.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -131,6 +131,6 @@ CMakeFiles/Example5.dir/clean:
 .PHONY : CMakeFiles/Example5.dir/clean
 
 CMakeFiles/Example5.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Transformations" "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Transformations" "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Transformations\build" "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Transformations\build" "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Transformations\build\CMakeFiles\Example5.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Rotating Camera" "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Rotating Camera" "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Rotating Camera\build" "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Rotating Camera\build" "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Rotating Camera\build\CMakeFiles\Example5.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Example5.dir/depend
 

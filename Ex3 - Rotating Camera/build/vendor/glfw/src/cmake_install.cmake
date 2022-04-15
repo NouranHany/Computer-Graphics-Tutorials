@@ -1,4 +1,4 @@
-# Install script for directory: D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/vendor/glfw/src
+# Install script for directory: D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/vendor/glfw/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

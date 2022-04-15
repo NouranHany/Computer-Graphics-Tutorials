@@ -1116,7 +1116,7 @@ detail/setup.hpp
 detail/func_vector_relational.inl
 ../vendor/glm/glm/detail/func_vector_relational.inl
 
-D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/main.cpp
+D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/main.cpp
 iostream
 -
 fstream

@@ -66,10 +66,10 @@ RM = "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Transformations"
+CMAKE_SOURCE_DIR = "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Rotating Camera"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Transformations\build"
+CMAKE_BINARY_DIR = "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Rotating Camera\build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -98,14 +98,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d D:\Noran\Noran\THIRDY~1\SECOND~1\COMPUT~1\TUTORI~1\COMPUT~1\EX3-TR~1\build && $(CMAKE_COMMAND) -E cmake_progress_start "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Transformations\build\CMakeFiles" "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Transformations\build\vendor\glfw\\CMakeFiles\progress.marks"
-	cd /d D:\Noran\Noran\THIRDY~1\SECOND~1\COMPUT~1\TUTORI~1\COMPUT~1\EX3-TR~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vendor/glfw/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Transformations\build\CMakeFiles" 0
+	cd /d D:\Noran\Noran\THIRDY~1\SECOND~1\COMPUT~1\TUTORI~1\COMPUT~1\EX3-RO~1\build && $(CMAKE_COMMAND) -E cmake_progress_start "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Rotating Camera\build\CMakeFiles" "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Rotating Camera\build\vendor\glfw\\CMakeFiles\progress.marks"
+	cd /d D:\Noran\Noran\THIRDY~1\SECOND~1\COMPUT~1\TUTORI~1\COMPUT~1\EX3-RO~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vendor/glfw/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Rotating Camera\build\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d D:\Noran\Noran\THIRDY~1\SECOND~1\COMPUT~1\TUTORI~1\COMPUT~1\EX3-TR~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vendor/glfw/clean
+	cd /d D:\Noran\Noran\THIRDY~1\SECOND~1\COMPUT~1\TUTORI~1\COMPUT~1\EX3-RO~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vendor/glfw/clean
 .PHONY : clean
 
 # The main clean target
@@ -115,17 +115,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d D:\Noran\Noran\THIRDY~1\SECOND~1\COMPUT~1\TUTORI~1\COMPUT~1\EX3-TR~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vendor/glfw/preinstall
+	cd /d D:\Noran\Noran\THIRDY~1\SECOND~1\COMPUT~1\TUTORI~1\COMPUT~1\EX3-RO~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vendor/glfw/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d D:\Noran\Noran\THIRDY~1\SECOND~1\COMPUT~1\TUTORI~1\COMPUT~1\EX3-TR~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vendor/glfw/preinstall
+	cd /d D:\Noran\Noran\THIRDY~1\SECOND~1\COMPUT~1\TUTORI~1\COMPUT~1\EX3-RO~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vendor/glfw/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d D:\Noran\Noran\THIRDY~1\SECOND~1\COMPUT~1\TUTORI~1\COMPUT~1\EX3-TR~1\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d D:\Noran\Noran\THIRDY~1\SECOND~1\COMPUT~1\TUTORI~1\COMPUT~1\EX3-RO~1\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -147,6 +147,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d D:\Noran\Noran\THIRDY~1\SECOND~1\COMPUT~1\TUTORI~1\COMPUT~1\EX3-TR~1\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d D:\Noran\Noran\THIRDY~1\SECOND~1\COMPUT~1\TUTORI~1\COMPUT~1\EX3-RO~1\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

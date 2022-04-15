@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
 
-The C compiler identification is GNU, found in "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/CMakeFiles/3.18.20081302-MSVC_2/CompilerIdC/a.exe"
+The C compiler identification is GNU, found in "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/CMakeFiles/3.18.20081302-MSVC_2/CompilerIdC/a.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: D:/Noran/Noran/Programs/mingw64/bin/g++.exe 
@@ -23,15 +23,15 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
 
-The CXX compiler identification is GNU, found in "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/CMakeFiles/3.18.20081302-MSVC_2/CompilerIdCXX/a.exe"
+The CXX compiler identification is GNU, found in "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/CMakeFiles/3.18.20081302-MSVC_2/CompilerIdCXX/a.exe"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/CMakeFiles/CMakeTmp
+Change Dir: D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Noran/Noran/Programs/mingw64/bin/mingw32-make.exe cmTC_1b1bc/fast && D:/Noran/Noran/Programs/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_1b1bc.dir\build.make CMakeFiles/cmTC_1b1bc.dir/build
-mingw32-make[1]: Entering directory 'D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1b1bc.dir/CMakeCCompilerABI.c.obj
-D:\Noran\Noran\Programs\mingw64\bin\gcc.exe   -v -o CMakeFiles\cmTC_1b1bc.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c"
+Run Build Command(s):D:/Noran/Noran/Programs/mingw64/bin/mingw32-make.exe cmTC_45fc0/fast && D:/Noran/Noran/Programs/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_45fc0.dir\build.make CMakeFiles/cmTC_45fc0.dir/build
+mingw32-make[1]: Entering directory 'D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_45fc0.dir/CMakeCCompilerABI.c.obj
+D:\Noran\Noran\Programs\mingw64\bin\gcc.exe   -v -o CMakeFiles\cmTC_45fc0.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c"
 Using built-in specs.
 COLLECT_GCC=D:\Noran\Noran\Programs\mingw64\bin\gcc.exe
 OFFLOAD_TARGET_NAMES=nvptx-none
@@ -40,8 +40,8 @@ Configured with: ../configure --prefix=/R/winlibs64_stage/inst_gcc-11.2.0/share/
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 11.2.0 (MinGW-W64 x86_64-posix-seh, built by Brecht Sanders) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_1b1bc.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_1b1bc.dir\'
- d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1.exe -quiet -v -iprefix d:\noran\noran\programs\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_1b1bc.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\Users\Noran\AppData\Local\Temp\cciekzsD.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_45fc0.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_45fc0.dir\'
+ d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1.exe -quiet -v -iprefix d:\noran\noran\programs\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_45fc0.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\Users\Noran\AppData\Local\Temp\cc49KUYE.s
 GNU C17 (MinGW-W64 x86_64-posix-seh, built by Brecht Sanders) version 11.2.0 (x86_64-w64-mingw32)
 	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version UNKNOWN-GMP
 
@@ -64,17 +64,17 @@ GNU C17 (MinGW-W64 x86_64-posix-seh, built by Brecht Sanders) version 11.2.0 (x8
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 20b6dee94859d4681ce48be5442862ae
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_1b1bc.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_1b1bc.dir\'
- d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_1b1bc.dir\CMakeCCompilerABI.c.obj C:\Users\Noran\AppData\Local\Temp\cciekzsD.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_45fc0.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_45fc0.dir\'
+ d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_45fc0.dir\CMakeCCompilerABI.c.obj C:\Users\Noran\AppData\Local\Temp\cc49KUYE.s
 GNU assembler version 2.38 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64, built by Brecht Sanders) 2.38
 COMPILER_PATH=d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;d:/noran/noran/programs/mingw64/bin/../libexec/gcc/;d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/
 LIBRARY_PATH=d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;d:/noran/noran/programs/mingw64/bin/../lib/gcc/;d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_1b1bc.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_1b1bc.dir\CMakeCCompilerABI.c.'
-Linking C executable cmTC_1b1bc.exe
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_1b1bc.dir\link.txt --verbose=1
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_1b1bc.dir/objects.a
-D:\Noran\Noran\Programs\mingw64\bin\ar.exe cr CMakeFiles\cmTC_1b1bc.dir/objects.a @CMakeFiles\cmTC_1b1bc.dir\objects1.rsp
-D:\Noran\Noran\Programs\mingw64\bin\gcc.exe  -v -Wl,--whole-archive CMakeFiles\cmTC_1b1bc.dir/objects.a -Wl,--no-whole-archive -o cmTC_1b1bc.exe -Wl,--out-implib,libcmTC_1b1bc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_45fc0.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_45fc0.dir\CMakeCCompilerABI.c.'
+Linking C executable cmTC_45fc0.exe
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_45fc0.dir\link.txt --verbose=1
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_45fc0.dir/objects.a
+D:\Noran\Noran\Programs\mingw64\bin\ar.exe cr CMakeFiles\cmTC_45fc0.dir/objects.a @CMakeFiles\cmTC_45fc0.dir\objects1.rsp
+D:\Noran\Noran\Programs\mingw64\bin\gcc.exe  -v -Wl,--whole-archive CMakeFiles\cmTC_45fc0.dir/objects.a -Wl,--no-whole-archive -o cmTC_45fc0.exe -Wl,--out-implib,libcmTC_45fc0.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Using built-in specs.
 COLLECT_GCC=D:\Noran\Noran\Programs\mingw64\bin\gcc.exe
 COLLECT_LTO_WRAPPER=d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe
@@ -86,10 +86,10 @@ Supported LTO compression algorithms: zlib zstd
 gcc version 11.2.0 (MinGW-W64 x86_64-posix-seh, built by Brecht Sanders) 
 COMPILER_PATH=d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;d:/noran/noran/programs/mingw64/bin/../libexec/gcc/;d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/
 LIBRARY_PATH=d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;d:/noran/noran/programs/mingw64/bin/../lib/gcc/;d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1b1bc.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1b1bc.'
- d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -plugin d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/liblto_plugin.dll -plugin-opt=d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Noran\AppData\Local\Temp\ccMv2X6U.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_1b1bc.exe d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. --whole-archive CMakeFiles\cmTC_1b1bc.dir/objects.a --no-whole-archive --out-implib libcmTC_1b1bc.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1b1bc.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1b1bc.'
-mingw32-make[1]: Leaving directory 'D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_45fc0.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_45fc0.'
+ d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -plugin d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/liblto_plugin.dll -plugin-opt=d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Noran\AppData\Local\Temp\ccgMgN8N.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_45fc0.exe d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. --whole-archive CMakeFiles\cmTC_45fc0.dir/objects.a --no-whole-archive --out-implib libcmTC_45fc0.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_45fc0.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_45fc0.'
+mingw32-make[1]: Leaving directory 'D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/CMakeFiles/CMakeTmp'
 
 
 
@@ -110,12 +110,12 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):D:/Noran/Noran/Programs/mingw64/bin/mingw32-make.exe cmTC_1b1bc/fast && D:/Noran/Noran/Programs/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_1b1bc.dir\build.make CMakeFiles/cmTC_1b1bc.dir/build]
-  ignore line: [mingw32-make[1]: Entering directory 'D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_1b1bc.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [D:\Noran\Noran\Programs\mingw64\bin\gcc.exe   -v -o CMakeFiles\cmTC_1b1bc.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Run Build Command(s):D:/Noran/Noran/Programs/mingw64/bin/mingw32-make.exe cmTC_45fc0/fast && D:/Noran/Noran/Programs/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_45fc0.dir\build.make CMakeFiles/cmTC_45fc0.dir/build]
+  ignore line: [mingw32-make[1]: Entering directory 'D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_45fc0.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [D:\Noran\Noran\Programs\mingw64\bin\gcc.exe   -v -o CMakeFiles\cmTC_45fc0.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c"]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=D:\Noran\Noran\Programs\mingw64\bin\gcc.exe]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -124,8 +124,8 @@ Parsed C implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib zstd]
   ignore line: [gcc version 11.2.0 (MinGW-W64 x86_64-posix-seh  built by Brecht Sanders) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_1b1bc.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_1b1bc.dir\']
-  ignore line: [ d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1.exe -quiet -v -iprefix d:\noran\noran\programs\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_1b1bc.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\Users\Noran\AppData\Local\Temp\cciekzsD.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_45fc0.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_45fc0.dir\']
+  ignore line: [ d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1.exe -quiet -v -iprefix d:\noran\noran\programs\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_45fc0.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\Users\Noran\AppData\Local\Temp\cc49KUYE.s]
   ignore line: [GNU C17 (MinGW-W64 x86_64-posix-seh  built by Brecht Sanders) version 11.2.0 (x86_64-w64-mingw32)]
   ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version UNKNOWN-GMP]
   ignore line: []
@@ -148,8 +148,8 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 20b6dee94859d4681ce48be5442862ae]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_1b1bc.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_1b1bc.dir\']
-  ignore line: [ d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_1b1bc.dir\CMakeCCompilerABI.c.obj C:\Users\Noran\AppData\Local\Temp\cciekzsD.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_45fc0.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_45fc0.dir\']
+  ignore line: [ d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_45fc0.dir\CMakeCCompilerABI.c.obj C:\Users\Noran\AppData\Local\Temp\cc49KUYE.s]
   ignore line: [GNU assembler version 2.38 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64  built by Brecht Sanders) 2.38]
   ignore line: [COMPILER_PATH=d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
   ignore line: [d:/noran/noran/programs/mingw64/bin/../libexec/gcc/]
@@ -160,12 +160,12 @@ Parsed C implicit link information from above output:
   ignore line: [d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
   ignore line: [d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
   ignore line: [d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_1b1bc.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_1b1bc.dir\CMakeCCompilerABI.c.']
-  ignore line: [Linking C executable cmTC_1b1bc.exe]
-  ignore line: ["C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_1b1bc.dir\link.txt --verbose=1]
-  ignore line: ["C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_1b1bc.dir/objects.a]
-  ignore line: [D:\Noran\Noran\Programs\mingw64\bin\ar.exe cr CMakeFiles\cmTC_1b1bc.dir/objects.a @CMakeFiles\cmTC_1b1bc.dir\objects1.rsp]
-  ignore line: [D:\Noran\Noran\Programs\mingw64\bin\gcc.exe  -v -Wl --whole-archive CMakeFiles\cmTC_1b1bc.dir/objects.a -Wl --no-whole-archive -o cmTC_1b1bc.exe -Wl --out-implib libcmTC_1b1bc.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_45fc0.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_45fc0.dir\CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_45fc0.exe]
+  ignore line: ["C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_45fc0.dir\link.txt --verbose=1]
+  ignore line: ["C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_45fc0.dir/objects.a]
+  ignore line: [D:\Noran\Noran\Programs\mingw64\bin\ar.exe cr CMakeFiles\cmTC_45fc0.dir/objects.a @CMakeFiles\cmTC_45fc0.dir\objects1.rsp]
+  ignore line: [D:\Noran\Noran\Programs\mingw64\bin\gcc.exe  -v -Wl --whole-archive CMakeFiles\cmTC_45fc0.dir/objects.a -Wl --no-whole-archive -o cmTC_45fc0.exe -Wl --out-implib libcmTC_45fc0.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=D:\Noran\Noran\Programs\mingw64\bin\gcc.exe]
   ignore line: [COLLECT_LTO_WRAPPER=d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe]
@@ -184,13 +184,13 @@ Parsed C implicit link information from above output:
   ignore line: [d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
   ignore line: [d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
   ignore line: [d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1b1bc.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1b1bc.']
-  link line: [ d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -plugin d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/liblto_plugin.dll -plugin-opt=d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Noran\AppData\Local\Temp\ccMv2X6U.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_1b1bc.exe d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. --whole-archive CMakeFiles\cmTC_1b1bc.dir/objects.a --no-whole-archive --out-implib libcmTC_1b1bc.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_45fc0.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_45fc0.']
+  link line: [ d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -plugin d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/liblto_plugin.dll -plugin-opt=d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Noran\AppData\Local\Temp\ccgMgN8N.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_45fc0.exe d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. --whole-archive CMakeFiles\cmTC_45fc0.dir/objects.a --no-whole-archive --out-implib libcmTC_45fc0.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
     arg [d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/liblto_plugin.dll] ==> ignore
     arg [-plugin-opt=d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=C:\Users\Noran\AppData\Local\Temp\ccMv2X6U.res] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\Noran\AppData\Local\Temp\ccgMgN8N.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
@@ -214,7 +214,7 @@ Parsed C implicit link information from above output:
     arg [i386pep] ==> ignore
     arg [-Bdynamic] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_1b1bc.exe] ==> ignore
+    arg [cmTC_45fc0.exe] ==> ignore
     arg [d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> ignore
     arg [d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o] ==> ignore
     arg [-Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0] ==> dir [d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0]
@@ -224,10 +224,10 @@ Parsed C implicit link information from above output:
     arg [-Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib]
     arg [-Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..] ==> dir [d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..]
     arg [--whole-archive] ==> ignore
-    arg [CMakeFiles\cmTC_1b1bc.dir/objects.a] ==> ignore
+    arg [CMakeFiles\cmTC_45fc0.dir/objects.a] ==> ignore
     arg [--no-whole-archive] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_1b1bc.dll.a] ==> ignore
+    arg [libcmTC_45fc0.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
@@ -268,12 +268,12 @@ Parsed C implicit link information from above output:
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/CMakeFiles/CMakeTmp
+Change Dir: D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Noran/Noran/Programs/mingw64/bin/mingw32-make.exe cmTC_59ba9/fast && D:/Noran/Noran/Programs/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_59ba9.dir\build.make CMakeFiles/cmTC_59ba9.dir/build
-mingw32-make[1]: Entering directory 'D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_59ba9.dir/CMakeCXXCompilerABI.cpp.obj
-D:\Noran\Noran\Programs\mingw64\bin\g++.exe   -v -o CMakeFiles\cmTC_59ba9.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCXXCompilerABI.cpp"
+Run Build Command(s):D:/Noran/Noran/Programs/mingw64/bin/mingw32-make.exe cmTC_70afc/fast && D:/Noran/Noran/Programs/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_70afc.dir\build.make CMakeFiles/cmTC_70afc.dir/build
+mingw32-make[1]: Entering directory 'D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_70afc.dir/CMakeCXXCompilerABI.cpp.obj
+D:\Noran\Noran\Programs\mingw64\bin\g++.exe   -v -o CMakeFiles\cmTC_70afc.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCXXCompilerABI.cpp"
 Using built-in specs.
 COLLECT_GCC=D:\Noran\Noran\Programs\mingw64\bin\g++.exe
 OFFLOAD_TARGET_NAMES=nvptx-none
@@ -282,8 +282,8 @@ Configured with: ../configure --prefix=/R/winlibs64_stage/inst_gcc-11.2.0/share/
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 11.2.0 (MinGW-W64 x86_64-posix-seh, built by Brecht Sanders) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_59ba9.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_59ba9.dir\'
- d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -quiet -v -iprefix d:\noran\noran\programs\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\cmTC_59ba9.dir\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\Users\Noran\AppData\Local\Temp\ccBtIH1i.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_70afc.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_70afc.dir\'
+ d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -quiet -v -iprefix d:\noran\noran\programs\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\cmTC_70afc.dir\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\Users\Noran\AppData\Local\Temp\cc8xG34c.s
 GNU C++17 (MinGW-W64 x86_64-posix-seh, built by Brecht Sanders) version 11.2.0 (x86_64-w64-mingw32)
 	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version UNKNOWN-GMP
 
@@ -312,17 +312,17 @@ GNU C++17 (MinGW-W64 x86_64-posix-seh, built by Brecht Sanders) version 11.2.0 (
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 6b7ffc1833d19e41f80b94f4c9246869
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_59ba9.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_59ba9.dir\'
- d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_59ba9.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\Noran\AppData\Local\Temp\ccBtIH1i.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_70afc.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_70afc.dir\'
+ d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_70afc.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\Noran\AppData\Local\Temp\cc8xG34c.s
 GNU assembler version 2.38 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64, built by Brecht Sanders) 2.38
 COMPILER_PATH=d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;d:/noran/noran/programs/mingw64/bin/../libexec/gcc/;d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/
 LIBRARY_PATH=d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;d:/noran/noran/programs/mingw64/bin/../lib/gcc/;d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_59ba9.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_59ba9.dir\CMakeCXXCompilerABI.cpp.'
-Linking CXX executable cmTC_59ba9.exe
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_59ba9.dir\link.txt --verbose=1
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_59ba9.dir/objects.a
-D:\Noran\Noran\Programs\mingw64\bin\ar.exe cr CMakeFiles\cmTC_59ba9.dir/objects.a @CMakeFiles\cmTC_59ba9.dir\objects1.rsp
-D:\Noran\Noran\Programs\mingw64\bin\g++.exe  -v -Wl,--whole-archive CMakeFiles\cmTC_59ba9.dir/objects.a -Wl,--no-whole-archive -o cmTC_59ba9.exe -Wl,--out-implib,libcmTC_59ba9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_70afc.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_70afc.dir\CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_70afc.exe
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_70afc.dir\link.txt --verbose=1
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_70afc.dir/objects.a
+D:\Noran\Noran\Programs\mingw64\bin\ar.exe cr CMakeFiles\cmTC_70afc.dir/objects.a @CMakeFiles\cmTC_70afc.dir\objects1.rsp
+D:\Noran\Noran\Programs\mingw64\bin\g++.exe  -v -Wl,--whole-archive CMakeFiles\cmTC_70afc.dir/objects.a -Wl,--no-whole-archive -o cmTC_70afc.exe -Wl,--out-implib,libcmTC_70afc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Using built-in specs.
 COLLECT_GCC=D:\Noran\Noran\Programs\mingw64\bin\g++.exe
 COLLECT_LTO_WRAPPER=d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe
@@ -334,10 +334,10 @@ Supported LTO compression algorithms: zlib zstd
 gcc version 11.2.0 (MinGW-W64 x86_64-posix-seh, built by Brecht Sanders) 
 COMPILER_PATH=d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;d:/noran/noran/programs/mingw64/bin/../libexec/gcc/;d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/
 LIBRARY_PATH=d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;d:/noran/noran/programs/mingw64/bin/../lib/gcc/;d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_59ba9.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_59ba9.'
- d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -plugin d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/liblto_plugin.dll -plugin-opt=d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Noran\AppData\Local\Temp\ccxVxq7q.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_59ba9.exe d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. --whole-archive CMakeFiles\cmTC_59ba9.dir/objects.a --no-whole-archive --out-implib libcmTC_59ba9.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_59ba9.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_59ba9.'
-mingw32-make[1]: Leaving directory 'D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_70afc.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_70afc.'
+ d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -plugin d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/liblto_plugin.dll -plugin-opt=d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Noran\AppData\Local\Temp\cchei2Hb.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_70afc.exe d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. --whole-archive CMakeFiles\cmTC_70afc.dir/objects.a --no-whole-archive --out-implib libcmTC_70afc.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_70afc.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_70afc.'
+mingw32-make[1]: Leaving directory 'D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/CMakeFiles/CMakeTmp'
 
 
 
@@ -364,12 +364,12 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):D:/Noran/Noran/Programs/mingw64/bin/mingw32-make.exe cmTC_59ba9/fast && D:/Noran/Noran/Programs/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_59ba9.dir\build.make CMakeFiles/cmTC_59ba9.dir/build]
-  ignore line: [mingw32-make[1]: Entering directory 'D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_59ba9.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [D:\Noran\Noran\Programs\mingw64\bin\g++.exe   -v -o CMakeFiles\cmTC_59ba9.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Run Build Command(s):D:/Noran/Noran/Programs/mingw64/bin/mingw32-make.exe cmTC_70afc/fast && D:/Noran/Noran/Programs/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_70afc.dir\build.make CMakeFiles/cmTC_70afc.dir/build]
+  ignore line: [mingw32-make[1]: Entering directory 'D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_70afc.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [D:\Noran\Noran\Programs\mingw64\bin\g++.exe   -v -o CMakeFiles\cmTC_70afc.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCXXCompilerABI.cpp"]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=D:\Noran\Noran\Programs\mingw64\bin\g++.exe]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -378,8 +378,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib zstd]
   ignore line: [gcc version 11.2.0 (MinGW-W64 x86_64-posix-seh  built by Brecht Sanders) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_59ba9.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_59ba9.dir\']
-  ignore line: [ d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -quiet -v -iprefix d:\noran\noran\programs\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\cmTC_59ba9.dir\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\Users\Noran\AppData\Local\Temp\ccBtIH1i.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_70afc.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_70afc.dir\']
+  ignore line: [ d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -quiet -v -iprefix d:\noran\noran\programs\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\cmTC_70afc.dir\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\Users\Noran\AppData\Local\Temp\cc8xG34c.s]
   ignore line: [GNU C++17 (MinGW-W64 x86_64-posix-seh  built by Brecht Sanders) version 11.2.0 (x86_64-w64-mingw32)]
   ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version UNKNOWN-GMP]
   ignore line: []
@@ -408,8 +408,8 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 6b7ffc1833d19e41f80b94f4c9246869]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_59ba9.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_59ba9.dir\']
-  ignore line: [ d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_59ba9.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\Noran\AppData\Local\Temp\ccBtIH1i.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_70afc.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_70afc.dir\']
+  ignore line: [ d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_70afc.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\Noran\AppData\Local\Temp\cc8xG34c.s]
   ignore line: [GNU assembler version 2.38 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64  built by Brecht Sanders) 2.38]
   ignore line: [COMPILER_PATH=d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
   ignore line: [d:/noran/noran/programs/mingw64/bin/../libexec/gcc/]
@@ -420,12 +420,12 @@ Parsed CXX implicit link information from above output:
   ignore line: [d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
   ignore line: [d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
   ignore line: [d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_59ba9.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_59ba9.dir\CMakeCXXCompilerABI.cpp.']
-  ignore line: [Linking CXX executable cmTC_59ba9.exe]
-  ignore line: ["C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_59ba9.dir\link.txt --verbose=1]
-  ignore line: ["C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_59ba9.dir/objects.a]
-  ignore line: [D:\Noran\Noran\Programs\mingw64\bin\ar.exe cr CMakeFiles\cmTC_59ba9.dir/objects.a @CMakeFiles\cmTC_59ba9.dir\objects1.rsp]
-  ignore line: [D:\Noran\Noran\Programs\mingw64\bin\g++.exe  -v -Wl --whole-archive CMakeFiles\cmTC_59ba9.dir/objects.a -Wl --no-whole-archive -o cmTC_59ba9.exe -Wl --out-implib libcmTC_59ba9.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_70afc.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_70afc.dir\CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_70afc.exe]
+  ignore line: ["C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_70afc.dir\link.txt --verbose=1]
+  ignore line: ["C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_70afc.dir/objects.a]
+  ignore line: [D:\Noran\Noran\Programs\mingw64\bin\ar.exe cr CMakeFiles\cmTC_70afc.dir/objects.a @CMakeFiles\cmTC_70afc.dir\objects1.rsp]
+  ignore line: [D:\Noran\Noran\Programs\mingw64\bin\g++.exe  -v -Wl --whole-archive CMakeFiles\cmTC_70afc.dir/objects.a -Wl --no-whole-archive -o cmTC_70afc.exe -Wl --out-implib libcmTC_70afc.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=D:\Noran\Noran\Programs\mingw64\bin\g++.exe]
   ignore line: [COLLECT_LTO_WRAPPER=d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe]
@@ -444,13 +444,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
   ignore line: [d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
   ignore line: [d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_59ba9.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_59ba9.']
-  link line: [ d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -plugin d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/liblto_plugin.dll -plugin-opt=d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Noran\AppData\Local\Temp\ccxVxq7q.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_59ba9.exe d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. --whole-archive CMakeFiles\cmTC_59ba9.dir/objects.a --no-whole-archive --out-implib libcmTC_59ba9.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_70afc.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_70afc.']
+  link line: [ d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -plugin d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/liblto_plugin.dll -plugin-opt=d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Noran\AppData\Local\Temp\cchei2Hb.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_70afc.exe d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. --whole-archive CMakeFiles\cmTC_70afc.dir/objects.a --no-whole-archive --out-implib libcmTC_70afc.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
     arg [d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/liblto_plugin.dll] ==> ignore
     arg [-plugin-opt=d:/noran/noran/programs/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=C:\Users\Noran\AppData\Local\Temp\ccxVxq7q.res] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\Noran\AppData\Local\Temp\cchei2Hb.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -474,7 +474,7 @@ Parsed CXX implicit link information from above output:
     arg [i386pep] ==> ignore
     arg [-Bdynamic] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_59ba9.exe] ==> ignore
+    arg [cmTC_70afc.exe] ==> ignore
     arg [d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> ignore
     arg [d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o] ==> ignore
     arg [-Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0] ==> dir [d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0]
@@ -484,10 +484,10 @@ Parsed CXX implicit link information from above output:
     arg [-Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib]
     arg [-Ld:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..] ==> dir [d:/noran/noran/programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..]
     arg [--whole-archive] ==> ignore
-    arg [CMakeFiles\cmTC_59ba9.dir/objects.a] ==> ignore
+    arg [CMakeFiles\cmTC_70afc.dir/objects.a] ==> ignore
     arg [--no-whole-archive] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_59ba9.dll.a] ==> ignore
+    arg [libcmTC_70afc.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
@@ -527,34 +527,34 @@ Parsed CXX implicit link information from above output:
 
 
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/CMakeFiles/CMakeTmp
+Change Dir: D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Noran/Noran/Programs/mingw64/bin/mingw32-make.exe cmTC_2a8cd/fast && D:/Noran/Noran/Programs/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_2a8cd.dir\build.make CMakeFiles/cmTC_2a8cd.dir/build
-mingw32-make[1]: Entering directory 'D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2a8cd.dir/CheckIncludeFile.c.obj
-D:\Noran\Noran\Programs\mingw64\bin\gcc.exe    -o CMakeFiles\cmTC_2a8cd.dir\CheckIncludeFile.c.obj -c "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Transformations\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
-Linking C executable cmTC_2a8cd.exe
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_2a8cd.dir\link.txt --verbose=1
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_2a8cd.dir/objects.a
-D:\Noran\Noran\Programs\mingw64\bin\ar.exe cr CMakeFiles\cmTC_2a8cd.dir/objects.a @CMakeFiles\cmTC_2a8cd.dir\objects1.rsp
-D:\Noran\Noran\Programs\mingw64\bin\gcc.exe -Wl,--whole-archive CMakeFiles\cmTC_2a8cd.dir/objects.a -Wl,--no-whole-archive -o cmTC_2a8cd.exe -Wl,--out-implib,libcmTC_2a8cd.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_2a8cd.dir\linklibs.rsp
-mingw32-make[1]: Leaving directory 'D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):D:/Noran/Noran/Programs/mingw64/bin/mingw32-make.exe cmTC_5119f/fast && D:/Noran/Noran/Programs/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_5119f.dir\build.make CMakeFiles/cmTC_5119f.dir/build
+mingw32-make[1]: Entering directory 'D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5119f.dir/CheckIncludeFile.c.obj
+D:\Noran\Noran\Programs\mingw64\bin\gcc.exe    -o CMakeFiles\cmTC_5119f.dir\CheckIncludeFile.c.obj -c "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Rotating Camera\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+Linking C executable cmTC_5119f.exe
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_5119f.dir\link.txt --verbose=1
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_5119f.dir/objects.a
+D:\Noran\Noran\Programs\mingw64\bin\ar.exe cr CMakeFiles\cmTC_5119f.dir/objects.a @CMakeFiles\cmTC_5119f.dir\objects1.rsp
+D:\Noran\Noran\Programs\mingw64\bin\gcc.exe -Wl,--whole-archive CMakeFiles\cmTC_5119f.dir/objects.a -Wl,--no-whole-archive -o cmTC_5119f.exe -Wl,--out-implib,libcmTC_5119f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_5119f.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/CMakeFiles/CMakeTmp'
 
 
 
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
-Change Dir: D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/CMakeFiles/CMakeTmp
+Change Dir: D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Noran/Noran/Programs/mingw64/bin/mingw32-make.exe cmTC_ee95f/fast && D:/Noran/Noran/Programs/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_ee95f.dir\build.make CMakeFiles/cmTC_ee95f.dir/build
-mingw32-make[1]: Entering directory 'D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ee95f.dir/src.c.obj
-D:\Noran\Noran\Programs\mingw64\bin\gcc.exe   -DCMAKE_HAVE_LIBC_PTHREAD -o CMakeFiles\cmTC_ee95f.dir\src.c.obj -c "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Transformations\build\CMakeFiles\CMakeTmp\src.c"
-Linking C executable cmTC_ee95f.exe
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_ee95f.dir\link.txt --verbose=1
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_ee95f.dir/objects.a
-D:\Noran\Noran\Programs\mingw64\bin\ar.exe cr CMakeFiles\cmTC_ee95f.dir/objects.a @CMakeFiles\cmTC_ee95f.dir\objects1.rsp
-D:\Noran\Noran\Programs\mingw64\bin\gcc.exe  -DCMAKE_HAVE_LIBC_PTHREAD -Wl,--whole-archive CMakeFiles\cmTC_ee95f.dir/objects.a -Wl,--no-whole-archive -o cmTC_ee95f.exe -Wl,--out-implib,libcmTC_ee95f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_ee95f.dir\linklibs.rsp
-mingw32-make[1]: Leaving directory 'D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):D:/Noran/Noran/Programs/mingw64/bin/mingw32-make.exe cmTC_ffffa/fast && D:/Noran/Noran/Programs/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_ffffa.dir\build.make CMakeFiles/cmTC_ffffa.dir/build
+mingw32-make[1]: Entering directory 'D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ffffa.dir/src.c.obj
+D:\Noran\Noran\Programs\mingw64\bin\gcc.exe   -DCMAKE_HAVE_LIBC_PTHREAD -o CMakeFiles\cmTC_ffffa.dir\src.c.obj -c "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Rotating Camera\build\CMakeFiles\CMakeTmp\src.c"
+Linking C executable cmTC_ffffa.exe
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_ffffa.dir\link.txt --verbose=1
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_ffffa.dir/objects.a
+D:\Noran\Noran\Programs\mingw64\bin\ar.exe cr CMakeFiles\cmTC_ffffa.dir/objects.a @CMakeFiles\cmTC_ffffa.dir\objects1.rsp
+D:\Noran\Noran\Programs\mingw64\bin\gcc.exe  -DCMAKE_HAVE_LIBC_PTHREAD -Wl,--whole-archive CMakeFiles\cmTC_ffffa.dir/objects.a -Wl,--no-whole-archive -o cmTC_ffffa.exe -Wl,--out-implib,libcmTC_ffffa.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_ffffa.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/CMakeFiles/CMakeTmp'
 
 
 Source file was:
@@ -579,84 +579,84 @@ int main(void)
 }
 
 Determining if the include file dinput.h exists passed with the following output:
-Change Dir: D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/CMakeFiles/CMakeTmp
+Change Dir: D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Noran/Noran/Programs/mingw64/bin/mingw32-make.exe cmTC_4a1e7/fast && D:/Noran/Noran/Programs/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_4a1e7.dir\build.make CMakeFiles/cmTC_4a1e7.dir/build
-mingw32-make[1]: Entering directory 'D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4a1e7.dir/CheckIncludeFile.c.obj
-D:\Noran\Noran\Programs\mingw64\bin\gcc.exe    -o CMakeFiles\cmTC_4a1e7.dir\CheckIncludeFile.c.obj -c "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Transformations\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
-Linking C executable cmTC_4a1e7.exe
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_4a1e7.dir\link.txt --verbose=1
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_4a1e7.dir/objects.a
-D:\Noran\Noran\Programs\mingw64\bin\ar.exe cr CMakeFiles\cmTC_4a1e7.dir/objects.a @CMakeFiles\cmTC_4a1e7.dir\objects1.rsp
-D:\Noran\Noran\Programs\mingw64\bin\gcc.exe -Wl,--whole-archive CMakeFiles\cmTC_4a1e7.dir/objects.a -Wl,--no-whole-archive -o cmTC_4a1e7.exe -Wl,--out-implib,libcmTC_4a1e7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_4a1e7.dir\linklibs.rsp
-mingw32-make[1]: Leaving directory 'D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):D:/Noran/Noran/Programs/mingw64/bin/mingw32-make.exe cmTC_86aa2/fast && D:/Noran/Noran/Programs/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_86aa2.dir\build.make CMakeFiles/cmTC_86aa2.dir/build
+mingw32-make[1]: Entering directory 'D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_86aa2.dir/CheckIncludeFile.c.obj
+D:\Noran\Noran\Programs\mingw64\bin\gcc.exe    -o CMakeFiles\cmTC_86aa2.dir\CheckIncludeFile.c.obj -c "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Rotating Camera\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+Linking C executable cmTC_86aa2.exe
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_86aa2.dir\link.txt --verbose=1
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_86aa2.dir/objects.a
+D:\Noran\Noran\Programs\mingw64\bin\ar.exe cr CMakeFiles\cmTC_86aa2.dir/objects.a @CMakeFiles\cmTC_86aa2.dir\objects1.rsp
+D:\Noran\Noran\Programs\mingw64\bin\gcc.exe -Wl,--whole-archive CMakeFiles\cmTC_86aa2.dir/objects.a -Wl,--no-whole-archive -o cmTC_86aa2.exe -Wl,--out-implib,libcmTC_86aa2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_86aa2.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the include file xinput.h exists passed with the following output:
-Change Dir: D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/CMakeFiles/CMakeTmp
+Change Dir: D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Noran/Noran/Programs/mingw64/bin/mingw32-make.exe cmTC_961c7/fast && D:/Noran/Noran/Programs/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_961c7.dir\build.make CMakeFiles/cmTC_961c7.dir/build
-mingw32-make[1]: Entering directory 'D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_961c7.dir/CheckIncludeFile.c.obj
-D:\Noran\Noran\Programs\mingw64\bin\gcc.exe    -o CMakeFiles\cmTC_961c7.dir\CheckIncludeFile.c.obj -c "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Transformations\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
-Linking C executable cmTC_961c7.exe
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_961c7.dir\link.txt --verbose=1
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_961c7.dir/objects.a
-D:\Noran\Noran\Programs\mingw64\bin\ar.exe cr CMakeFiles\cmTC_961c7.dir/objects.a @CMakeFiles\cmTC_961c7.dir\objects1.rsp
-D:\Noran\Noran\Programs\mingw64\bin\gcc.exe -Wl,--whole-archive CMakeFiles\cmTC_961c7.dir/objects.a -Wl,--no-whole-archive -o cmTC_961c7.exe -Wl,--out-implib,libcmTC_961c7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_961c7.dir\linklibs.rsp
-mingw32-make[1]: Leaving directory 'D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):D:/Noran/Noran/Programs/mingw64/bin/mingw32-make.exe cmTC_615d9/fast && D:/Noran/Noran/Programs/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_615d9.dir\build.make CMakeFiles/cmTC_615d9.dir/build
+mingw32-make[1]: Entering directory 'D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_615d9.dir/CheckIncludeFile.c.obj
+D:\Noran\Noran\Programs\mingw64\bin\gcc.exe    -o CMakeFiles\cmTC_615d9.dir\CheckIncludeFile.c.obj -c "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Rotating Camera\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+Linking C executable cmTC_615d9.exe
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_615d9.dir\link.txt --verbose=1
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_615d9.dir/objects.a
+D:\Noran\Noran\Programs\mingw64\bin\ar.exe cr CMakeFiles\cmTC_615d9.dir/objects.a @CMakeFiles\cmTC_615d9.dir\objects1.rsp
+D:\Noran\Noran\Programs\mingw64\bin\gcc.exe -Wl,--whole-archive CMakeFiles\cmTC_615d9.dir/objects.a -Wl,--no-whole-archive -o cmTC_615d9.exe -Wl,--out-implib,libcmTC_615d9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_615d9.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/CMakeFiles/CMakeTmp'
 
 
 
 Performing C SOURCE FILE Test _GLFW_HAS_DEP succeeded with the following output:
-Change Dir: D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/CMakeFiles/CMakeTmp
+Change Dir: D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Noran/Noran/Programs/mingw64/bin/mingw32-make.exe cmTC_18d2f/fast && D:/Noran/Noran/Programs/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_18d2f.dir\build.make CMakeFiles/cmTC_18d2f.dir/build
-mingw32-make[1]: Entering directory 'D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_18d2f.dir/src.c.obj
-D:\Noran\Noran\Programs\mingw64\bin\gcc.exe   -D_GLFW_HAS_DEP -Wl,--nxcompat -o CMakeFiles\cmTC_18d2f.dir\src.c.obj -c "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Transformations\build\CMakeFiles\CMakeTmp\src.c"
-Linking C executable cmTC_18d2f.exe
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_18d2f.dir\link.txt --verbose=1
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_18d2f.dir/objects.a
-D:\Noran\Noran\Programs\mingw64\bin\ar.exe cr CMakeFiles\cmTC_18d2f.dir/objects.a @CMakeFiles\cmTC_18d2f.dir\objects1.rsp
-D:\Noran\Noran\Programs\mingw64\bin\gcc.exe  -D_GLFW_HAS_DEP -Wl,--nxcompat -Wl,--whole-archive CMakeFiles\cmTC_18d2f.dir/objects.a -Wl,--no-whole-archive -o cmTC_18d2f.exe -Wl,--out-implib,libcmTC_18d2f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_18d2f.dir\linklibs.rsp
-mingw32-make[1]: Leaving directory 'D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):D:/Noran/Noran/Programs/mingw64/bin/mingw32-make.exe cmTC_d7789/fast && D:/Noran/Noran/Programs/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_d7789.dir\build.make CMakeFiles/cmTC_d7789.dir/build
+mingw32-make[1]: Entering directory 'D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d7789.dir/src.c.obj
+D:\Noran\Noran\Programs\mingw64\bin\gcc.exe   -D_GLFW_HAS_DEP -Wl,--nxcompat -o CMakeFiles\cmTC_d7789.dir\src.c.obj -c "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Rotating Camera\build\CMakeFiles\CMakeTmp\src.c"
+Linking C executable cmTC_d7789.exe
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_d7789.dir\link.txt --verbose=1
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_d7789.dir/objects.a
+D:\Noran\Noran\Programs\mingw64\bin\ar.exe cr CMakeFiles\cmTC_d7789.dir/objects.a @CMakeFiles\cmTC_d7789.dir\objects1.rsp
+D:\Noran\Noran\Programs\mingw64\bin\gcc.exe  -D_GLFW_HAS_DEP -Wl,--nxcompat -Wl,--whole-archive CMakeFiles\cmTC_d7789.dir/objects.a -Wl,--no-whole-archive -o cmTC_d7789.exe -Wl,--out-implib,libcmTC_d7789.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_d7789.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test _GLFW_HAS_ASLR succeeded with the following output:
-Change Dir: D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/CMakeFiles/CMakeTmp
+Change Dir: D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Noran/Noran/Programs/mingw64/bin/mingw32-make.exe cmTC_7601f/fast && D:/Noran/Noran/Programs/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_7601f.dir\build.make CMakeFiles/cmTC_7601f.dir/build
-mingw32-make[1]: Entering directory 'D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7601f.dir/src.c.obj
-D:\Noran\Noran\Programs\mingw64\bin\gcc.exe   -D_GLFW_HAS_ASLR -Wl,--dynamicbase -o CMakeFiles\cmTC_7601f.dir\src.c.obj -c "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Transformations\build\CMakeFiles\CMakeTmp\src.c"
-Linking C executable cmTC_7601f.exe
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_7601f.dir\link.txt --verbose=1
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_7601f.dir/objects.a
-D:\Noran\Noran\Programs\mingw64\bin\ar.exe cr CMakeFiles\cmTC_7601f.dir/objects.a @CMakeFiles\cmTC_7601f.dir\objects1.rsp
-D:\Noran\Noran\Programs\mingw64\bin\gcc.exe  -D_GLFW_HAS_ASLR -Wl,--dynamicbase -Wl,--whole-archive CMakeFiles\cmTC_7601f.dir/objects.a -Wl,--no-whole-archive -o cmTC_7601f.exe -Wl,--out-implib,libcmTC_7601f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_7601f.dir\linklibs.rsp
-mingw32-make[1]: Leaving directory 'D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):D:/Noran/Noran/Programs/mingw64/bin/mingw32-make.exe cmTC_e0862/fast && D:/Noran/Noran/Programs/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_e0862.dir\build.make CMakeFiles/cmTC_e0862.dir/build
+mingw32-make[1]: Entering directory 'D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e0862.dir/src.c.obj
+D:\Noran\Noran\Programs\mingw64\bin\gcc.exe   -D_GLFW_HAS_ASLR -Wl,--dynamicbase -o CMakeFiles\cmTC_e0862.dir\src.c.obj -c "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Rotating Camera\build\CMakeFiles\CMakeTmp\src.c"
+Linking C executable cmTC_e0862.exe
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_e0862.dir\link.txt --verbose=1
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_e0862.dir/objects.a
+D:\Noran\Noran\Programs\mingw64\bin\ar.exe cr CMakeFiles\cmTC_e0862.dir/objects.a @CMakeFiles\cmTC_e0862.dir\objects1.rsp
+D:\Noran\Noran\Programs\mingw64\bin\gcc.exe  -D_GLFW_HAS_ASLR -Wl,--dynamicbase -Wl,--whole-archive CMakeFiles\cmTC_e0862.dir/objects.a -Wl,--no-whole-archive -o cmTC_e0862.exe -Wl,--out-implib,libcmTC_e0862.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_e0862.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test _GLFW_HAS_64ASLR succeeded with the following output:
-Change Dir: D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/CMakeFiles/CMakeTmp
+Change Dir: D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Noran/Noran/Programs/mingw64/bin/mingw32-make.exe cmTC_13d17/fast && D:/Noran/Noran/Programs/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_13d17.dir\build.make CMakeFiles/cmTC_13d17.dir/build
-mingw32-make[1]: Entering directory 'D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_13d17.dir/src.c.obj
-D:\Noran\Noran\Programs\mingw64\bin\gcc.exe   -D_GLFW_HAS_64ASLR -Wl,--high-entropy-va -o CMakeFiles\cmTC_13d17.dir\src.c.obj -c "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Transformations\build\CMakeFiles\CMakeTmp\src.c"
-Linking C executable cmTC_13d17.exe
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_13d17.dir\link.txt --verbose=1
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_13d17.dir/objects.a
-D:\Noran\Noran\Programs\mingw64\bin\ar.exe cr CMakeFiles\cmTC_13d17.dir/objects.a @CMakeFiles\cmTC_13d17.dir\objects1.rsp
-D:\Noran\Noran\Programs\mingw64\bin\gcc.exe  -D_GLFW_HAS_64ASLR -Wl,--high-entropy-va -Wl,--whole-archive CMakeFiles\cmTC_13d17.dir/objects.a -Wl,--no-whole-archive -o cmTC_13d17.exe -Wl,--out-implib,libcmTC_13d17.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_13d17.dir\linklibs.rsp
-mingw32-make[1]: Leaving directory 'D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):D:/Noran/Noran/Programs/mingw64/bin/mingw32-make.exe cmTC_82188/fast && D:/Noran/Noran/Programs/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_82188.dir\build.make CMakeFiles/cmTC_82188.dir/build
+mingw32-make[1]: Entering directory 'D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_82188.dir/src.c.obj
+D:\Noran\Noran\Programs\mingw64\bin\gcc.exe   -D_GLFW_HAS_64ASLR -Wl,--high-entropy-va -o CMakeFiles\cmTC_82188.dir\src.c.obj -c "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Rotating Camera\build\CMakeFiles\CMakeTmp\src.c"
+Linking C executable cmTC_82188.exe
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_82188.dir\link.txt --verbose=1
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_82188.dir/objects.a
+D:\Noran\Noran\Programs\mingw64\bin\ar.exe cr CMakeFiles\cmTC_82188.dir/objects.a @CMakeFiles\cmTC_82188.dir\objects1.rsp
+D:\Noran\Noran\Programs\mingw64\bin\gcc.exe  -D_GLFW_HAS_64ASLR -Wl,--high-entropy-va -Wl,--whole-archive CMakeFiles\cmTC_82188.dir/objects.a -Wl,--no-whole-archive -o cmTC_82188.exe -Wl,--out-implib,libcmTC_82188.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_82188.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/CMakeFiles/CMakeTmp'
 
 
 Source file was:

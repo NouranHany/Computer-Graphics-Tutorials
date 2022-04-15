@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/bin/Example5.exe"
+			"path" : "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/bin/Example5.exe"
 		},
 		{
-			"path" : "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/bin/Example5.pdb"
+			"path" : "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/bin/Example5.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -59,15 +59,15 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/vendor/glfw/include"
+					"path" : "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/vendor/glfw/include"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/vendor/glad/include"
+					"path" : "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/vendor/glad/include"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/vendor/glm"
+					"path" : "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/vendor/glm"
 				}
 			],
 			"language" : "CXX",
@@ -87,15 +87,15 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/vendor/glfw/include"
+					"path" : "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/vendor/glfw/include"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/vendor/glad/include"
+					"path" : "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/vendor/glad/include"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/vendor/glm"
+					"path" : "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/vendor/glm"
 				}
 			],
 			"language" : "C",

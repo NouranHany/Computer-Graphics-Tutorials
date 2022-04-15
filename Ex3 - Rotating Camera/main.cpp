@@ -145,19 +145,70 @@ int main(int, char**) {
             100.0f
         );
 
-        // Froming the matrix that will change from local space to normalized view volume
-        // Note there's no model matrix here, i.e no transformation is done on the object
-        
-        // Also, The object will be at 0,0,0 in the world space
-        // Since the vertices coordinates specified for the square is centered at 0,0,0 (check vertices array above)
+        // Run 3 times To draw 3 squares
+        // this part isn't responsible for the rotation effect (the one responsible is the view matrix)
+        for(int z = -1; z <= 1; z++){
+            // In this tutorial, the model matrix only do translation to the square
+            // Translates the square in the z-axis only
+            
+            // First run, z=-1, translates a square to 1 unit out the z direction
+            // Second run, z=0, No translation, the square is at original location
+            // First run, z=1, translates a square to 1 unit in the z direction
+            
+            // Froming the matrix that will change from local space to homogenous clip space
+            glm::mat4 MVP = projection * view * glm::translate(
+                glm::mat4(1.0f),
+                glm::vec3(0, 0, z)
+            );
 
-        glm::mat4 VP = projection * view;
-        // First Param: Location of the uniform mvp matrix
-        // Second param: 1 matrix will be sent
-        // Third Param: transpose?
-        // Fourth PAram: float pointer to the data to be sent
-        glUniformMatrix4fv(mvpLoc, 1, false, (float*)&VP);
-        glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_SHORT, (void*)0);
+            // First Param: Location of the uniform mvp matrix
+            // Second param: 1 matrix will be sent
+            // Third Param: transpose?
+            // Fourth PAram: float pointer to the data to be sent
+            glUniformMatrix4fv(mvpLoc, 1, false, (float*)&MVP);
+            glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_SHORT, (void*)0);
+        }
+
+
+        // The Translation matrix
+        // ----------------
+        // glm::translate
+        // Takes matrix and vector, mulitply them to Build a translation matrix.
+        // this translation matrix will then be sent to shader to be multiplied by the vertices and translate them.
+
+        // First Param:  m:	Input matrix
+        // Second param: v: Coordinates of a translation vector.
+        // This function builds the translation matrix by performing multiplication: m*v
+        
+        // First Param: m: glm::mat4(1.0f)
+        // If there is a single scalar parameter to a matrix constructor,
+        // it is used to initialize all the components on the matrix's diagonal,
+        // with the remaining components initialized to 0.0.
+        // Thus the glm::mat4(1.0f) creates a 4*4 identity matrix
+
+        // Second param: v: vec3(0,0,z)
+        // The translation vector v will be put inside a translation matrix (t) as follows
+        //      c0  c1  c2  c3 
+        // ---------------------  
+        // r0:   1   0   0  v[0]  
+        // r1:   0   1   0  v[1]
+        // r2:   0   0   0  v[2]
+        // r3:   0   0   0  1  
+
+        // Then the translate function will multiply m*t
+
+        // To sum-up:
+        // First param is an input matrix: m
+        // Second param is a translation vector: v
+        // This translation vector v will turn to a translation matrix t having the above form
+        // Then returns input matrix*translation matrix
+
+        // In the above loop we multiplied the identity with translation matrix having translation at z only
+        // Result is a model matrix which causes only translation at the z coordinate.
+
+        // Some notes:
+        // matrix[0] is the left column of matrix.
+        // matrix[2][1] is in the 3rd row, 2nd column.
         
         glfwSwapBuffers(window);
         glfwPollEvents();

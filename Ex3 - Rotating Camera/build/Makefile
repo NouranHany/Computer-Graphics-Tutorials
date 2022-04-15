@@ -66,10 +66,10 @@ RM = "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Transformations"
+CMAKE_SOURCE_DIR = "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Rotating Camera"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Transformations\build"
+CMAKE_BINARY_DIR = "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Rotating Camera\build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -98,9 +98,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Transformations\build\CMakeFiles" "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Transformations\build\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Rotating Camera\build\CMakeFiles" "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Rotating Camera\build\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Transformations\build\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Noran\Noran\Third Year\Second term\Computer graphics\Tutorials\Computer-Graphics-Tutorials\Ex3 - Rotating Camera\build\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target

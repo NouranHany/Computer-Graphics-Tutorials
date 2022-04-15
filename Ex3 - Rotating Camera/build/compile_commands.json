@@ -1,87 +1,87 @@
 [
 {
-  "directory": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build",
-  "command": "D:\\Noran\\Noran\\Programs\\mingw64\\bin\\g++.exe  @CMakeFiles/Example5.dir/includes_CXX.rsp -g -o CMakeFiles\\Example5.dir\\main.cpp.obj -c \"D:\\Noran\\Noran\\Third Year\\Second term\\Computer graphics\\Tutorials\\Computer-Graphics-Tutorials\\Ex3 - Transformations\\main.cpp\"",
-  "file": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/main.cpp"
+  "directory": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build",
+  "command": "D:\\Noran\\Noran\\Programs\\mingw64\\bin\\g++.exe  @CMakeFiles/Example5.dir/includes_CXX.rsp -g -o CMakeFiles\\Example5.dir\\main.cpp.obj -c \"D:\\Noran\\Noran\\Third Year\\Second term\\Computer graphics\\Tutorials\\Computer-Graphics-Tutorials\\Ex3 - Rotating Camera\\main.cpp\"",
+  "file": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/main.cpp"
 },
 {
-  "directory": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build",
-  "command": "D:\\Noran\\Noran\\Programs\\mingw64\\bin\\gcc.exe  @CMakeFiles/Example5.dir/includes_C.rsp -g -o CMakeFiles\\Example5.dir\\vendor\\glad\\src\\gl.c.obj -c \"D:\\Noran\\Noran\\Third Year\\Second term\\Computer graphics\\Tutorials\\Computer-Graphics-Tutorials\\Ex3 - Transformations\\vendor\\glad\\src\\gl.c\"",
-  "file": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/vendor/glad/src/gl.c"
+  "directory": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build",
+  "command": "D:\\Noran\\Noran\\Programs\\mingw64\\bin\\gcc.exe  @CMakeFiles/Example5.dir/includes_C.rsp -g -o CMakeFiles\\Example5.dir\\vendor\\glad\\src\\gl.c.obj -c \"D:\\Noran\\Noran\\Third Year\\Second term\\Computer graphics\\Tutorials\\Computer-Graphics-Tutorials\\Ex3 - Rotating Camera\\vendor\\glad\\src\\gl.c\"",
+  "file": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/vendor/glad/src/gl.c"
 },
 {
-  "directory": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/vendor/glfw/src",
-  "command": "D:\\Noran\\Noran\\Programs\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\context.c.obj -c \"D:\\Noran\\Noran\\Third Year\\Second term\\Computer graphics\\Tutorials\\Computer-Graphics-Tutorials\\Ex3 - Transformations\\vendor\\glfw\\src\\context.c\"",
-  "file": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/vendor/glfw/src/context.c"
+  "directory": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/vendor/glfw/src",
+  "command": "D:\\Noran\\Noran\\Programs\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\context.c.obj -c \"D:\\Noran\\Noran\\Third Year\\Second term\\Computer graphics\\Tutorials\\Computer-Graphics-Tutorials\\Ex3 - Rotating Camera\\vendor\\glfw\\src\\context.c\"",
+  "file": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/vendor/glfw/src/context.c"
 },
 {
-  "directory": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/vendor/glfw/src",
-  "command": "D:\\Noran\\Noran\\Programs\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\init.c.obj -c \"D:\\Noran\\Noran\\Third Year\\Second term\\Computer graphics\\Tutorials\\Computer-Graphics-Tutorials\\Ex3 - Transformations\\vendor\\glfw\\src\\init.c\"",
-  "file": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/vendor/glfw/src/init.c"
+  "directory": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/vendor/glfw/src",
+  "command": "D:\\Noran\\Noran\\Programs\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\init.c.obj -c \"D:\\Noran\\Noran\\Third Year\\Second term\\Computer graphics\\Tutorials\\Computer-Graphics-Tutorials\\Ex3 - Rotating Camera\\vendor\\glfw\\src\\init.c\"",
+  "file": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/vendor/glfw/src/init.c"
 },
 {
-  "directory": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/vendor/glfw/src",
-  "command": "D:\\Noran\\Noran\\Programs\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\input.c.obj -c \"D:\\Noran\\Noran\\Third Year\\Second term\\Computer graphics\\Tutorials\\Computer-Graphics-Tutorials\\Ex3 - Transformations\\vendor\\glfw\\src\\input.c\"",
-  "file": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/vendor/glfw/src/input.c"
+  "directory": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/vendor/glfw/src",
+  "command": "D:\\Noran\\Noran\\Programs\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\input.c.obj -c \"D:\\Noran\\Noran\\Third Year\\Second term\\Computer graphics\\Tutorials\\Computer-Graphics-Tutorials\\Ex3 - Rotating Camera\\vendor\\glfw\\src\\input.c\"",
+  "file": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/vendor/glfw/src/input.c"
 },
 {
-  "directory": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/vendor/glfw/src",
-  "command": "D:\\Noran\\Noran\\Programs\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\monitor.c.obj -c \"D:\\Noran\\Noran\\Third Year\\Second term\\Computer graphics\\Tutorials\\Computer-Graphics-Tutorials\\Ex3 - Transformations\\vendor\\glfw\\src\\monitor.c\"",
-  "file": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/vendor/glfw/src/monitor.c"
+  "directory": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/vendor/glfw/src",
+  "command": "D:\\Noran\\Noran\\Programs\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\monitor.c.obj -c \"D:\\Noran\\Noran\\Third Year\\Second term\\Computer graphics\\Tutorials\\Computer-Graphics-Tutorials\\Ex3 - Rotating Camera\\vendor\\glfw\\src\\monitor.c\"",
+  "file": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/vendor/glfw/src/monitor.c"
 },
 {
-  "directory": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/vendor/glfw/src",
-  "command": "D:\\Noran\\Noran\\Programs\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\vulkan.c.obj -c \"D:\\Noran\\Noran\\Third Year\\Second term\\Computer graphics\\Tutorials\\Computer-Graphics-Tutorials\\Ex3 - Transformations\\vendor\\glfw\\src\\vulkan.c\"",
-  "file": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/vendor/glfw/src/vulkan.c"
+  "directory": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/vendor/glfw/src",
+  "command": "D:\\Noran\\Noran\\Programs\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\vulkan.c.obj -c \"D:\\Noran\\Noran\\Third Year\\Second term\\Computer graphics\\Tutorials\\Computer-Graphics-Tutorials\\Ex3 - Rotating Camera\\vendor\\glfw\\src\\vulkan.c\"",
+  "file": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/vendor/glfw/src/vulkan.c"
 },
 {
-  "directory": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/vendor/glfw/src",
-  "command": "D:\\Noran\\Noran\\Programs\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\window.c.obj -c \"D:\\Noran\\Noran\\Third Year\\Second term\\Computer graphics\\Tutorials\\Computer-Graphics-Tutorials\\Ex3 - Transformations\\vendor\\glfw\\src\\window.c\"",
-  "file": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/vendor/glfw/src/window.c"
+  "directory": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/vendor/glfw/src",
+  "command": "D:\\Noran\\Noran\\Programs\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\window.c.obj -c \"D:\\Noran\\Noran\\Third Year\\Second term\\Computer graphics\\Tutorials\\Computer-Graphics-Tutorials\\Ex3 - Rotating Camera\\vendor\\glfw\\src\\window.c\"",
+  "file": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/vendor/glfw/src/window.c"
 },
 {
-  "directory": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/vendor/glfw/src",
-  "command": "D:\\Noran\\Noran\\Programs\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_init.c.obj -c \"D:\\Noran\\Noran\\Third Year\\Second term\\Computer graphics\\Tutorials\\Computer-Graphics-Tutorials\\Ex3 - Transformations\\vendor\\glfw\\src\\win32_init.c\"",
-  "file": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/vendor/glfw/src/win32_init.c"
+  "directory": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/vendor/glfw/src",
+  "command": "D:\\Noran\\Noran\\Programs\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_init.c.obj -c \"D:\\Noran\\Noran\\Third Year\\Second term\\Computer graphics\\Tutorials\\Computer-Graphics-Tutorials\\Ex3 - Rotating Camera\\vendor\\glfw\\src\\win32_init.c\"",
+  "file": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/vendor/glfw/src/win32_init.c"
 },
 {
-  "directory": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/vendor/glfw/src",
-  "command": "D:\\Noran\\Noran\\Programs\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_joystick.c.obj -c \"D:\\Noran\\Noran\\Third Year\\Second term\\Computer graphics\\Tutorials\\Computer-Graphics-Tutorials\\Ex3 - Transformations\\vendor\\glfw\\src\\win32_joystick.c\"",
-  "file": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/vendor/glfw/src/win32_joystick.c"
+  "directory": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/vendor/glfw/src",
+  "command": "D:\\Noran\\Noran\\Programs\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_joystick.c.obj -c \"D:\\Noran\\Noran\\Third Year\\Second term\\Computer graphics\\Tutorials\\Computer-Graphics-Tutorials\\Ex3 - Rotating Camera\\vendor\\glfw\\src\\win32_joystick.c\"",
+  "file": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/vendor/glfw/src/win32_joystick.c"
 },
 {
-  "directory": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/vendor/glfw/src",
-  "command": "D:\\Noran\\Noran\\Programs\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_monitor.c.obj -c \"D:\\Noran\\Noran\\Third Year\\Second term\\Computer graphics\\Tutorials\\Computer-Graphics-Tutorials\\Ex3 - Transformations\\vendor\\glfw\\src\\win32_monitor.c\"",
-  "file": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/vendor/glfw/src/win32_monitor.c"
+  "directory": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/vendor/glfw/src",
+  "command": "D:\\Noran\\Noran\\Programs\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_monitor.c.obj -c \"D:\\Noran\\Noran\\Third Year\\Second term\\Computer graphics\\Tutorials\\Computer-Graphics-Tutorials\\Ex3 - Rotating Camera\\vendor\\glfw\\src\\win32_monitor.c\"",
+  "file": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/vendor/glfw/src/win32_monitor.c"
 },
 {
-  "directory": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/vendor/glfw/src",
-  "command": "D:\\Noran\\Noran\\Programs\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_time.c.obj -c \"D:\\Noran\\Noran\\Third Year\\Second term\\Computer graphics\\Tutorials\\Computer-Graphics-Tutorials\\Ex3 - Transformations\\vendor\\glfw\\src\\win32_time.c\"",
-  "file": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/vendor/glfw/src/win32_time.c"
+  "directory": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/vendor/glfw/src",
+  "command": "D:\\Noran\\Noran\\Programs\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_time.c.obj -c \"D:\\Noran\\Noran\\Third Year\\Second term\\Computer graphics\\Tutorials\\Computer-Graphics-Tutorials\\Ex3 - Rotating Camera\\vendor\\glfw\\src\\win32_time.c\"",
+  "file": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/vendor/glfw/src/win32_time.c"
 },
 {
-  "directory": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/vendor/glfw/src",
-  "command": "D:\\Noran\\Noran\\Programs\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_thread.c.obj -c \"D:\\Noran\\Noran\\Third Year\\Second term\\Computer graphics\\Tutorials\\Computer-Graphics-Tutorials\\Ex3 - Transformations\\vendor\\glfw\\src\\win32_thread.c\"",
-  "file": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/vendor/glfw/src/win32_thread.c"
+  "directory": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/vendor/glfw/src",
+  "command": "D:\\Noran\\Noran\\Programs\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_thread.c.obj -c \"D:\\Noran\\Noran\\Third Year\\Second term\\Computer graphics\\Tutorials\\Computer-Graphics-Tutorials\\Ex3 - Rotating Camera\\vendor\\glfw\\src\\win32_thread.c\"",
+  "file": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/vendor/glfw/src/win32_thread.c"
 },
 {
-  "directory": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/vendor/glfw/src",
-  "command": "D:\\Noran\\Noran\\Programs\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_window.c.obj -c \"D:\\Noran\\Noran\\Third Year\\Second term\\Computer graphics\\Tutorials\\Computer-Graphics-Tutorials\\Ex3 - Transformations\\vendor\\glfw\\src\\win32_window.c\"",
-  "file": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/vendor/glfw/src/win32_window.c"
+  "directory": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/vendor/glfw/src",
+  "command": "D:\\Noran\\Noran\\Programs\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_window.c.obj -c \"D:\\Noran\\Noran\\Third Year\\Second term\\Computer graphics\\Tutorials\\Computer-Graphics-Tutorials\\Ex3 - Rotating Camera\\vendor\\glfw\\src\\win32_window.c\"",
+  "file": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/vendor/glfw/src/win32_window.c"
 },
 {
-  "directory": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/vendor/glfw/src",
-  "command": "D:\\Noran\\Noran\\Programs\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\wgl_context.c.obj -c \"D:\\Noran\\Noran\\Third Year\\Second term\\Computer graphics\\Tutorials\\Computer-Graphics-Tutorials\\Ex3 - Transformations\\vendor\\glfw\\src\\wgl_context.c\"",
-  "file": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/vendor/glfw/src/wgl_context.c"
+  "directory": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/vendor/glfw/src",
+  "command": "D:\\Noran\\Noran\\Programs\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\wgl_context.c.obj -c \"D:\\Noran\\Noran\\Third Year\\Second term\\Computer graphics\\Tutorials\\Computer-Graphics-Tutorials\\Ex3 - Rotating Camera\\vendor\\glfw\\src\\wgl_context.c\"",
+  "file": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/vendor/glfw/src/wgl_context.c"
 },
 {
-  "directory": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/vendor/glfw/src",
-  "command": "D:\\Noran\\Noran\\Programs\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\egl_context.c.obj -c \"D:\\Noran\\Noran\\Third Year\\Second term\\Computer graphics\\Tutorials\\Computer-Graphics-Tutorials\\Ex3 - Transformations\\vendor\\glfw\\src\\egl_context.c\"",
-  "file": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/vendor/glfw/src/egl_context.c"
+  "directory": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/vendor/glfw/src",
+  "command": "D:\\Noran\\Noran\\Programs\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\egl_context.c.obj -c \"D:\\Noran\\Noran\\Third Year\\Second term\\Computer graphics\\Tutorials\\Computer-Graphics-Tutorials\\Ex3 - Rotating Camera\\vendor\\glfw\\src\\egl_context.c\"",
+  "file": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/vendor/glfw/src/egl_context.c"
 },
 {
-  "directory": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/build/vendor/glfw/src",
-  "command": "D:\\Noran\\Noran\\Programs\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\osmesa_context.c.obj -c \"D:\\Noran\\Noran\\Third Year\\Second term\\Computer graphics\\Tutorials\\Computer-Graphics-Tutorials\\Ex3 - Transformations\\vendor\\glfw\\src\\osmesa_context.c\"",
-  "file": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Transformations/vendor/glfw/src/osmesa_context.c"
+  "directory": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/build/vendor/glfw/src",
+  "command": "D:\\Noran\\Noran\\Programs\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\osmesa_context.c.obj -c \"D:\\Noran\\Noran\\Third Year\\Second term\\Computer graphics\\Tutorials\\Computer-Graphics-Tutorials\\Ex3 - Rotating Camera\\vendor\\glfw\\src\\osmesa_context.c\"",
+  "file": "D:/Noran/Noran/Third Year/Second term/Computer graphics/Tutorials/Computer-Graphics-Tutorials/Ex3 - Rotating Camera/vendor/glfw/src/osmesa_context.c"
 }
 ]
